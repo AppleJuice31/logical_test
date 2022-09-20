@@ -27,6 +27,7 @@ function printAlphabets(alphabetCase) {
     for (j = 0; j < n; j++) {
         // var temp = []
         for (let i = n - 1; i >= 0; i--) {
+            
             // if (k == end) {
             //     console.log('end');
             // }
