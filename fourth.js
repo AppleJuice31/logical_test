@@ -39,20 +39,16 @@ stack.add(2);
 stack.add(4);
 stack.add(7);
 stack.add(8);
-// stack.stackElements.push(12)
-// console.log('orginal stack');
-// stack.showElements()
-console.log('---------------');
+stack.showElements()
 duplicateStack(stack)
-
-// removeOddnumbers(stack)
-// stack.showElements()
-// stack.remove()
-// stack.remove()
-// console.log(stack.stackElements);
-// console.log(stack.top());
-// console.log(stack.isEmpty());
-// console.log(stack.size());
+removeOddnumbers(stack)
+stack.showElements()
+stack.remove()
+stack.remove()
+console.log(stack.stackElements);
+console.log(stack.top());
+console.log(stack.isEmpty());
+console.log(stack.size());
 
 
 function removeOddnumbers(stack) {
